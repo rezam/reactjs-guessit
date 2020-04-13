@@ -1,0 +1,52 @@
+body {
+  margin: 0
+}
+h1, p {
+  font-family: Lato;
+}
+li {
+  list-style: none;
+}
+button {
+  background-color: #EA2027;
+  border: 1px solid #EA2027;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-left: 12px;
+  transition: all 0.3s;
+}
+button.check:hover {
+  background-color: #fff;
+  color: #EA2027;
+}
+button.end:hover {
+  background-color: #EA2027;
+  color: #fff;
+}
+button.end {
+  background-color: #fff;
+  border: 1px solid #EA2027;
+  color: #EA2027;
+  margin-left: 5px;
+}
+.screen {
+  padding: 50px;
+}
+input {
+  border: 1px solid #aaa;
+  font-size: 15px;
+  padding: 7px 10px;
+  width: 40%
+}
+.header p {
+  font-size: 15px;
+}
+.hint {
+  background-color: #EA2027;
+  padding: 5px;
+  color: #fff;
+  margin-top: 10px;
+  border-radius: 5px;
+}
